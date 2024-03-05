@@ -2,9 +2,7 @@
  * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
- */
- 
- body{font-family:'Open Sans',serif;padding-top:54px;color:#800080}@media (min-width:992px){body{padding-top:0;padding-left:17rem}}h1,h2,h3,h4,h5,h6{font-family:'Saira Extra Condensed',serif;font-weight:700;text-transform:uppercase;color:#F4BB44}h1{font-size:6rem;line-height:5.5rem}h2{font-size:3.5rem}.subheading{text-transform:uppercase;font-weight:500;font-family:'Saira Extra Condensed',serif;font-size:1.35rem}.list-social-icons a{color:#F4BB44}.list-social-icons a:hover{color:#800080}.list-social-icons a .fa-lg{font-size:1.75rem}.list-icons{font-size:3rem}.list-icons .list-inline-item i:hover{color:#F4BB44}#sideNav .navbar-nav .nav-item .nav-link{font-weight:600;text-transform:uppercase}@media (min-width:992px){#sideNav{text-align:center;position:fixed;top:0;left:0;display:flex;flex-direction:column;width:17rem;height:100vh}#sideNav .navbar-brand{display:flex;margin:auto auto 0;padding:.5rem} 
+ */body{font-family:'Open Sans',serif;padding-top:54px;color:#800080}@media (min-width:992px){body{padding-top:0;padding-left:17rem}}h1,h2,h3,h4,h5,h6{font-family:'Saira Extra Condensed',serif;font-weight:700;text-transform:uppercase;color:#F4BB44}h1{font-size:6rem;line-height:5.5rem}h2{font-size:3.5rem}.subheading{text-transform:uppercase;font-weight:500;font-family:'Saira Extra Condensed',serif;font-size:1.35rem}.list-social-icons a{color:#F4BB44}.list-social-icons a:hover{color:#800080}.list-social-icons a .fa-lg{font-size:1.75rem}.list-icons{font-size:3rem}.list-icons .list-inline-item i:hover{color:#F4BB44}#sideNav .navbar-nav .nav-item .nav-link{font-weight:600;text-transform:uppercase}@media (min-width:992px){#sideNav{text-align:center;position:fixed;top:0;left:0;display:flex;flex-direction:column;width:17rem;height:100vh}#sideNav .navbar-brand{display:flex;margin:auto auto 0;padding:.5rem} 
 
  .img-profile {
   margin-top: 300px;
@@ -56,6 +54,6 @@
     .image-slide {min-width: 100%;box-sizing: border-box;transition: opacity 0.5s ease-in-out;}
 
     .gallery-controls {position: absolute;top: 50%;width: 100%;display: flex;justify-content: space-between;transform: translateY(-50%);}
-
+    
     .control-button {background: none;border:none;font-size: 24px;cursor: pointer;padding: 10px;color: #333;}
 
