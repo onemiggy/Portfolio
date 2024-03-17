@@ -191,7 +191,7 @@ a:hover {
 .content {
   width: 400px; /* Set the width of the container */
   border: 1px solid #ccc; /* Add a border for better visualization */
-  padding: 40px; /* Add some padding inside the container */
+  padding: 100px; /* Add some padding inside the container */
 }
 
 .content img {
