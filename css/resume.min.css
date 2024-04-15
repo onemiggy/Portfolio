@@ -118,7 +118,7 @@ h2 {
 
 
   /*   Resume Info  */
-  
+
 }
 section.resume-section {
   border-bottom: 1px solid #bdb5d5;
@@ -212,6 +212,7 @@ a:hover {
 
 /*  Projects Made */
 
+/* Container for the boxes */
 .box-container {
   display: flex;
   justify-content: center;
@@ -219,6 +220,7 @@ a:hover {
   flex-wrap: wrap;
 }
 
+/* Individual box styling */
 .box {
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -227,20 +229,24 @@ a:hover {
   transition: transform 0.3s ease-in-out;
 }
 
+/* Hover effect */
 .box:hover {
   transform: translateY(-5px);
 }
 
+/* Image styling */
 .box img {
-  width: 50%;
+  width: 100%;
   height: auto;
   display: block;
 }
 
+/* Content styling */
 .content {
   padding: 20px;
 }
 
+/* Tag styling */
 .tag {
   background-color: #333;
   color: #fff;
@@ -249,10 +255,12 @@ a:hover {
   margin-bottom: 10px;
 }
 
+/* Description styling */
 .desc p {
   margin-bottom: 15px;
 }
 
+/* Button styling */
 .btns {
   display: flex;
   justify-content: flex-end;
