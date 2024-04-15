@@ -31,13 +31,15 @@ h1 {
 }
 h2 {
   font-size: 3.5rem;
-}
+} 
+
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
   font-family: "Saira Extra Condensed", serif;
   font-size: 1.35rem;
 }
+
 .list-social-icons a {
   color: #f4bb44;
 }
