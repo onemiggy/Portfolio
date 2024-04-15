@@ -205,3 +205,68 @@ a:hover {
   font-size: 16px; /* Set the font size of the paragraph */
   line-height: 1.5; /* Set the line height for better readability */
 }
+
+/*  Projects Made */
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.content {
+  padding: 20px;
+}
+
+.tag {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.desc p {
+  margin-bottom: 15px;
+}
+
+.btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.btn i {
+  margin-right: 5px;
+}
