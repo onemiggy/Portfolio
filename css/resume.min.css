@@ -370,6 +370,18 @@ figure.snip1390 .profile {
   border: solid 5px #800080;
 }
 
+figure.snip1390 blockquote {
+  font-size: 0.9em; /* Adjust the font size to make it smaller */
+  padding: 25px 20px; /* Adjust the padding to reduce the blockquote size */
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  position: relative;
+}
+
+
 /* slide left and right */
 
 .slideshow-container {
