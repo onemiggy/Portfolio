@@ -305,11 +305,10 @@ figure.snip1390 {
   font-size: 16px;
   background-color: #800080;
   padding: 30px;
-  background-image: linear-gradient(-25deg, rgba(69, 28, 99, 0.1) 0%, rgba(69, 28, 99, 0.1) 100%);
+  background-image: linear-gradient(-25deg, rgba(96, 80, 49, 0.2) 0%, rgba(128, 0, 128, 0.1) 100%);
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 
 
 
@@ -363,36 +362,7 @@ figure.snip1390 .profile {
   width: 100px;
   border-radius: 50%;
   display: inline-block;
-  box-shadow: 3px 3px 20px rgba(69, 28, 99, 0.1);
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
   margin-bottom: 10px;
   border: solid 5px #800080;
-}
-
-/*  slideshow testimonials  */
-
-
-.slideshow-container {
-  display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-}
-
-.snip1390 {
-  flex: 0 0 auto;
-  scroll-snap-align: start;
-  margin-right: 20px;
-}
-
-/* Add hover effect */
-.snip1390:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
-}
-
-/* Optional: Style for figcaption */
-figcaption {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  color: #fff;
 }
