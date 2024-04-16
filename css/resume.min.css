@@ -367,3 +367,32 @@ figure.snip1390 .profile {
   margin-bottom: 10px;
   border: solid 5px #800080;
 }
+
+/*  slideshow testimonials  */
+
+
+.slideshow-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.snip1390 {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  margin-right: 20px;
+}
+
+/* Add hover effect */
+.snip1390:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Optional: Style for figcaption */
+figcaption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: #fff;
+}
