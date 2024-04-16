@@ -292,19 +292,20 @@ a:hover {
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
 figure.snip1390 {
   font-family: 'Roboto', Arial, sans-serif;
   position: relative;
   overflow: hidden;
   margin: 10px;
-  min-width: 230px;
-  max-width: 315px;
+  min-width: 200px; /* Decreased min-width */
+  max-width: 275px; /* Decreased max-width */
   width: 100%;
   color: #000000;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px; /* Decreased font size */
   background-color: #800080;
-  padding: 30px;
+  padding: 20px; /* Decreased padding */
   background-image: linear-gradient(-25deg, rgba(96, 80, 49, 0.2) 0%, rgba(128, 0, 128, 0.1) 100%);
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -313,6 +314,7 @@ figure.snip1390 {
   justify-content: center; /* Center items horizontally */
   align-items: center; /* Center items vertically */
 }
+
 
 
 /* Testimonials */
