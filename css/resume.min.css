@@ -370,5 +370,45 @@ figure.snip1390 .profile {
   border: solid 5px #800080;
 }
 
+/* slide left and right */
+
+.slideshow-container {
+  position: relative;
+  max-width: 800px; /* Adjust width as needed */
+  margin: 0 auto; /* Center horizontally */
+}
+
+.slideshow {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+}
+
+.sip1390 {
+  text-align: center;
+  margin: 0 auto; /* Center horizontally */
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 16px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
 
 
