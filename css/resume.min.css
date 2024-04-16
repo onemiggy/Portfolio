@@ -382,7 +382,6 @@ figure.snip1390 .profile {
 
 .snip1390 {
   flex: 0 0 auto;
-  transition: transform 0.5s ease-in-out;
 }
 
 .prev, .next {
@@ -405,5 +404,22 @@ figure.snip1390 .profile {
 .next {
   right: 0;
 }
+
+@keyframes slideAnimation {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  animation: slideAnimation 0.3s ease;
+}
+
 
 
