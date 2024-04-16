@@ -369,36 +369,25 @@ figure.snip1390 .profile {
 
 /* Slideshow */
 
-.slideshow {
-  display: flex;
-  overflow: hidden;
+/* Rest of the CSS remains the same */
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 16px;
+  color: white;
+  font-size: 20px;
+  transition: background-color 0.3s;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.snip1390 {
-  flex: 0 0 auto;
-  transition: transform 0.5s ease-in-out;
+.prev {
+  left: 0;
 }
 
-.snip1390:hover {
-  transform: scale(1.1);
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-.slideshow {
-  animation: slide 8s infinite;
-}
-
-/* Optional: Style for figcaption */
-figcaption {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  color: #fff;
+.next {
+  right: 0;
 }
