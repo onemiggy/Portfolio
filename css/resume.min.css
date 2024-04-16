@@ -310,7 +310,7 @@ figure.snip1390 {
   box-sizing: border-box;
 }
 
-
+/* Testimonials */
 
 figure.snip1390 *,
 figure.snip1390 *:before,
@@ -367,10 +367,23 @@ figure.snip1390 .profile {
   border: solid 5px #800080;
 }
 
+/* SlideShow */
 
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+}
 
-/* Slideshow */
-/* Rest of the CSS remains the same */
+.slideshow {
+  display: flex;
+  overflow: hidden;
+}
+
+.snip1390 {
+  flex: 0 0 auto;
+  transition: transform 0.5s ease-in-out;
+}
 
 .prev, .next {
   position: absolute;
@@ -392,3 +405,5 @@ figure.snip1390 .profile {
 .next {
   right: 0;
 }
+
+

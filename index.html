@@ -118,6 +118,7 @@
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
           </div>
           
+          
 
 
 
@@ -492,7 +493,8 @@
       }
   </script>
 
-<script> 
+<script>
+
 let slideIndex = 0;
 
 function showSlides() {
@@ -503,7 +505,6 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = 'block';
-  setTimeout(showSlides, 5000); // Change slide every 5 seconds
 }
 
 function plusSlides(n) {
@@ -511,6 +512,7 @@ function plusSlides(n) {
 }
 
 showSlides();
+
 
 </script>
 
