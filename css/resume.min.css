@@ -366,3 +366,39 @@ figure.snip1390 .profile {
   margin-bottom: 10px;
   border: solid 5px #800080;
 }
+
+/* Slideshow */
+
+.slideshow {
+  display: flex;
+  overflow: hidden;
+}
+
+.snip1390 {
+  flex: 0 0 auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+.snip1390:hover {
+  transform: scale(1.1);
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.slideshow {
+  animation: slide 8s infinite;
+}
+
+/* Optional: Style for figcaption */
+figcaption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: #fff;
+}
