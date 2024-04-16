@@ -361,14 +361,18 @@ figure.snip1390 .profile {
   margin-bottom: 10px;
   border: solid 5px #800080;
 }
+
 figure.snip1390 .profile {
-  width: 100px;
+  width: 150px; /* Increase the width of the profile image */
+  height: 150px; /* Set the height to maintain aspect ratio */
   border-radius: 50%;
   display: inline-block;
-  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
   margin-bottom: 10px;
   border: solid 5px #800080;
+  object-fit: cover; /* Maintain aspect ratio and fill container */
+  image-rendering: auto; /* Ensure image rendering is optimized */
 }
+
 
 figure.snip1390 blockquote {
   font-size: 0.9em; /* Adjust the font size to make it smaller */
