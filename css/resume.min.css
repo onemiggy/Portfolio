@@ -400,5 +400,14 @@ figure.snip1390 blockquote {
   margin: 0 auto; /* Center horizontally */
 }
 
+.slideshow .profile {
+  width: 150px; /* Increase the width of the images */
+  height: 150px; /* Set the height to maintain aspect ratio */
+  object-fit: cover; /* Maintain aspect ratio and fill container */
+}
+
+.slideshow .snip1390 figcaption {
+  max-width: 200px; /* Adjust the max-width of the figcaption to prevent overflow */
+}
 
 
