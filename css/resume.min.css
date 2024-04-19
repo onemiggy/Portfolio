@@ -428,12 +428,18 @@ figure.snip1390 blockquote {
 }
 
 .banner img {
-  width: 100%; /* Make the image take up the full width of the banner */
-  height: 100%; /* Make the image take up the full height of the banner */
+  width: auto; /* Let the image adjust its width automatically */
+  height: 100%; /* Maintain the full height of the image */
   object-fit: contain; /* Change to 'contain' to see the full image */
   position: absolute; /* Position the image absolutely */
+  top: 0; /* Align the top of the image with the top of the banner */
+  bottom: 0; /* Align the bottom of the image with the bottom of the banner */
+  left: 0; /* Align the left side of the image with the left side of the banner */
+  right: 0; /* Align the right side of the image with the right side of the banner */
+  margin: auto; /* Center the image */
   z-index: 1; /* Ensure the image is behind the text */
 }
+
 
 .banner-text {
   position: relative; /* Position the text absolutely within the banner */
