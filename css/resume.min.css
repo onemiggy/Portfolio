@@ -420,7 +420,7 @@ figure.snip1390 blockquote {
 /* Banner Styling */
 .banner {
   position: relative;
-  width: 50%;
+  width: 100%;
   height: 100px;
   overflow: hidden;
 }
