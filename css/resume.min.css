@@ -425,7 +425,7 @@ figure.snip1390 blockquote {
   justify-content: center; /* Center the content horizontally */
   align-items: center; /* Center the content vertically */
   position: relative; /* Positioning context for text overlay */
-  animation: fadeInOut 6s infinite; /* Apply the fade-in and fade-out animation */
+  animation: fadeInOut 20s infinite; /* Apply the fade-in and fade-out animation with a duration of 20 seconds */
 }
 
 .banner img {
