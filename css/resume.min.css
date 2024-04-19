@@ -441,15 +441,7 @@ figure.snip1390 blockquote {
   z-index: 1; /* Ensure the image is behind the text */
 }
 
-.banner-text {
-  position: relative; /* Position the text absolutely within the banner */
-  z-index: 2; /* Ensure the text is on top of the image */
-  color: white; /* Set the text color to white */
-  text-align: center; /* Center the text */
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for the text */
-  border-radius: 5px; /* Optional: Add rounded corners */
-}
+
 
 /*  keyframes animation */
 @keyframes fadeInOut {
