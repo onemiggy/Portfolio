@@ -425,6 +425,7 @@ figure.snip1390 blockquote {
   justify-content: center; /* Center the content horizontally */
   align-items: center; /* Center the content vertically */
   position: relative; /* Positioning context for text overlay */
+  animation: fadeInOut 6s infinite; /* Apply the fade-in and fade-out animation */
 }
 
 .banner img {
@@ -440,7 +441,6 @@ figure.snip1390 blockquote {
   z-index: 1; /* Ensure the image is behind the text */
 }
 
-
 .banner-text {
   position: relative; /* Position the text absolutely within the banner */
   z-index: 2; /* Ensure the text is on top of the image */
@@ -451,14 +451,13 @@ figure.snip1390 blockquote {
   border-radius: 5px; /* Optional: Add rounded corners */
 }
 
-
-/* Animation effect for banner */
-@keyframes slideBanner {
-  0% {
-    transform: translateX(0);
+/*  keyframes animation */
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
   }
-  100% {
-    transform: translateX(-100%);
+  50% {
+    opacity: 1;
   }
 }
 
