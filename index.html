@@ -25,7 +25,16 @@
 
   </head>
 
+  <!--  Web Banner -->
+  <div class="banner">
+    <img src="img/banner.jpg" alt="Banner Image">
+    <div class="banner-text">
+      <h1>Welcome to My E-Portfolio</h1>
+      <p>Explore my projects and skills</p>
+    </div>
+  </div>
   
+
 
   <body id="page-top">
 
@@ -536,6 +545,17 @@
   </script>
 
 
+<script>
+
+// JavaScript for banner animation
+document.addEventListener("DOMContentLoaded", function () {
+  const banner = document.querySelector('.banner img');
+  // Apply the animation effect to the banner image
+  banner.style.animation = 'slideBanner 10s infinite alternate';
+});
+
+
+</script>
 
   </body>
 
