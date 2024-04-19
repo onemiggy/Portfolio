@@ -417,7 +417,6 @@ figure.snip1390 blockquote {
 }
 
 
-/* Banner Styling */
 /* CSS for Web Banner */
 .banner {
   width: 100%; /* Make the banner take up the full width of the viewport */
@@ -431,7 +430,7 @@ figure.snip1390 blockquote {
 .banner img {
   width: 100%; /* Make the image take up the full width of the banner */
   height: 100%; /* Make the image take up the full height of the banner */
-  object-fit: cover; /* Ensure the image covers the entire banner */
+  object-fit: contain; /* Change to 'contain' to see the full image */
   position: absolute; /* Position the image absolutely */
   z-index: 1; /* Ensure the image is behind the text */
 }
@@ -445,6 +444,7 @@ figure.snip1390 blockquote {
   background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for the text */
   border-radius: 5px; /* Optional: Add rounded corners */
 }
+
 
 /* Animation effect for banner */
 @keyframes slideBanner {
